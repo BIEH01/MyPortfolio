@@ -1,17 +1,16 @@
-import { projects } from "@/data";
+import { moreProjects } from "@/data";
 import React from "react";
 import { PinContainer } from "./ui/3d-pin";
 import { FaLocationArrow } from "react-icons/fa";
 
-const RecentProjects = () => {
+const MoreProjects = () => {
 	return (
 		<div className="py-20" id="projects">
 			<h1 className="heading">
-				A small selection of{" "}
-				<span className="text-purple">recent projects</span>
+				More smaller <span className="text-purple"> projects</span>
 			</h1>
 			<div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
-				{projects.map(({ id, title, des, img, iconLists, link }) => (
+				{moreProjects.map(({ id, title, des, img, iconLists, link }) => (
 					<div
 						key={id}
 						className="sm:h-[41rem] lg:min-h-[32.5rem] h-[32rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
@@ -67,4 +66,4 @@ const RecentProjects = () => {
 	);
 };
 
-export default RecentProjects;
+export default MoreProjects;
