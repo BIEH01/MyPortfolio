@@ -49,7 +49,7 @@ export const gridItems = [
 
 	{
 		id: 5,
-		title: "Currently Studying Machine Learning",
+		title: "Currently Studying New Web Technologies",
 		description: "The Inside Scoop",
 		className: "md:col-span-3 md:row-span-2",
 		imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,47 +72,44 @@ export const gridItems = [
 export const projects = [
 	{
 		id: 1,
-		title: "Animated Apple Iphone 3D Website",
+		title: "Animated Apple Iphone 3D Webpage",
 		des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
 		img: "/p4.svg",
 		iconLists: ["/tail.svg", "/re.svg", "/three.svg", "/gsap.svg"],
 		link: "https://bieh08.github.io/iPhone15ProClone/",
 	},
-];
-
-export const moreProjects = [
 	{
-		id: 1,
-		title: "3D Solar System Planets to Explore",
-		des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-		img: "/p1.svg",
-		iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+		id: 2,
+		title: "ToDo App for Tracking Your Tasks",
+		des: "Keep your tasks on track and complete with the ToDo app, built with React.js.",
+		img: "/p5.svg",
+		iconLists: ["/re.svg"],
 		link: "https://bieh08.github.io/ToDoApp/",
 	},
 	{
-		id: 2,
-		title: "Yoom - Video Conferencing App",
-		des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-		img: "/p2.svg",
-		iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-		link: "https://bieh08.github.io/MyEcommerce/",
-	},
-	{
 		id: 3,
-		title: "AI Image SaaS - Canva Application",
-		des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-		img: "/p3.svg",
-		iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-		link: "https://bieh08.github.io/ResponsiveDesignAndMobileFirst/",
-	},
-	{
-		id: 4,
-		title: "AI Image SaaS - Canva Application",
-		des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-		img: "/p3.svg",
-		iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+		title: "Google Search webpage Clone",
+		des: "A google webpage created with HTML5 and CSS3",
+		img: "/p6.svg",
+		iconLists: [""],
 		link: "https://bieh08.github.io/GoogleCopy/",
 	},
+	// {
+	// 	id: 4,
+	// 	title: "Yoom - Video Conferencing App",
+	// 	des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+	// 	img: "/p2.svg",
+	// 	iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+	// 	link: "https://bieh08.github.io/MyEcommerce/",
+	// },
+	// {
+	// 	id: 5,
+	// 	title: "AI Image SaaS - Canva Application",
+	// 	des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+	// 	img: "/p3.svg",
+	// 	iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+	// 	link: "https://bieh08.github.io/ResponsiveDesignAndMobileFirst/",
+	// },
 ];
 
 export const testimonials = [
