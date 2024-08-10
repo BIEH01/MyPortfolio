@@ -13,7 +13,7 @@ export const gridItems = [
 		className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
 		imgClassName: "w-full h-full",
 		titleClassName: "justify-end",
-		img: "/b1.svg",
+		img: "./b1.svg",
 		spareImg: "",
 	},
 	{
@@ -43,8 +43,8 @@ export const gridItems = [
 		className: "lg:col-span-2 md:col-span-3 md:row-span-1",
 		imgClassName: "",
 		titleClassName: "justify-start",
-		img: "/grid.svg",
-		spareImg: "/b4.svg",
+		img: "./grid.svg",
+		spareImg: "./b4.svg",
 	},
 
 	{
@@ -54,8 +54,8 @@ export const gridItems = [
 		className: "md:col-span-3 md:row-span-2",
 		imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
 		titleClassName: "justify-center md:justify-start lg:justify-center",
-		img: "/b5.svg",
-		spareImg: "/grid.svg",
+		img: "./b5.svg",
+		spareImg: "./grid.svg",
 	},
 	{
 		id: 6,
@@ -74,7 +74,7 @@ export const projects = [
 		id: 1,
 		title: "Animated Apple Iphone 3D Webpage",
 		des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-		img: "/p4.svg",
+		img: "./p4.svg",
 		iconLists: ["/tail.svg", "/re.svg", "/three.svg", "/gsap.svg"],
 		link: "https://bieh08.github.io/iPhone15ProClone/",
 	},
@@ -82,7 +82,7 @@ export const projects = [
 		id: 2,
 		title: "ToDo App for Tracking Your Tasks",
 		des: "Keep your tasks on track and complete with the ToDo app, built with React.js.",
-		img: "/p5.svg",
+		img: "./p5.svg",
 		iconLists: ["/re.svg"],
 		link: "https://bieh08.github.io/ToDoApp/",
 	},
@@ -90,7 +90,7 @@ export const projects = [
 		id: 3,
 		title: "Google Search webpage Clone",
 		des: "A google webpage created with HTML5 and CSS3",
-		img: "/p6.svg",
+		img: "./p6.svg",
 		iconLists: [""],
 		link: "https://bieh08.github.io/GoogleCopy/",
 	},
@@ -119,62 +119,38 @@ export const testimonials = [
 		name: "Michael Johnson",
 		title: "Director of AlphaStream Technologies",
 	},
-	{
-		quote:
-			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
-	},
-	{
-		quote:
-			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
-	},
-	{
-		quote:
-			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
-	},
-	{
-		quote:
-			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
-	},
 ];
 
 export const companies = [
 	{
 		id: 1,
 		name: "cloudinary",
-		img: "/cloud.svg",
-		nameImg: "/cloudName.svg",
+		img: "./cloud.svg",
+		nameImg: "./cloudName.svg",
 	},
 	{
 		id: 2,
 		name: "appwrite",
-		img: "/app.svg",
-		nameImg: "/appName.svg",
+		img: "./app.svg",
+		nameImg: "./appName.svg",
 	},
 	{
 		id: 3,
 		name: "HOSTINGER",
-		img: "/host.svg",
-		nameImg: "/hostName.svg",
+		img: "./host.svg",
+		nameImg: "./hostName.svg",
 	},
 	{
 		id: 4,
 		name: "stream",
-		img: "/s.svg",
-		nameImg: "/streamName.svg",
+		img: "./s.svg",
+		nameImg: "./streamName.svg",
 	},
 	{
 		id: 5,
 		name: "docker.",
-		img: "/dock.svg",
-		nameImg: "/dockerName.svg",
+		img: "./dock.svg",
+		nameImg: "./dockerName.svg",
 	},
 ];
 
@@ -184,14 +160,14 @@ export const workExperience = [
 		title: "Frontend Developer",
 		desc: "I have been working on several projects with React.js and other technologies during my learning period on the Platzi platform.",
 		className: "md:col-span-2",
-		thumbnail: "/exp1.svg",
+		thumbnail: "./exp1.svg",
 	},
 	{
 		id: 2,
 		title: "Mobile App Dev",
 		desc: "I created small mobile apps using React Native.",
 		className: "md:col-span-2",
-		thumbnail: "/exp2.svg",
+		thumbnail: "./exp2.svg",
 	},
 	// {
 	// 	id: 3,
@@ -213,7 +189,7 @@ export const socialMedia = [
 	{
 		id: 1,
 		name: "GitHub",
-		img: "/git.svg",
+		img: "./git.svg",
 		link: "https://github.com/BIEH08",
 	},
 	// {
@@ -225,7 +201,7 @@ export const socialMedia = [
 	{
 		id: 3,
 		name: "Linkedin",
-		img: "/link.svg",
+		img: "./link.svg",
 		link: "https://www.linkedin.com/in/bryan-escamilla-4a67b52a7/",
 	},
 ];
