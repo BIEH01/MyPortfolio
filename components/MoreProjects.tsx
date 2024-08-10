@@ -7,7 +7,7 @@ const MoreProjects = () => {
 	return (
 		<div className="py-20" id="projects">
 			<h1 className="heading">
-				More smaller <span className="text-purple"> projects</span>
+				Some smaller <span className="text-purple"> projects</span>
 			</h1>
 			<div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
 				{moreProjects.map(({ id, title, des, img, iconLists, link }) => (

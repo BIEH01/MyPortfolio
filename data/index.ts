@@ -87,7 +87,7 @@ export const moreProjects = [
 		des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
 		img: "/p1.svg",
 		iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-		link: "https://github.com/adrianhajdin?tab=repositories",
+		link: "https://bieh08.github.io/ToDoApp/",
 	},
 	{
 		id: 2,
@@ -95,7 +95,7 @@ export const moreProjects = [
 		des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
 		img: "/p2.svg",
 		iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-		link: "https://github.com/adrianhajdin/zoom-clone",
+		link: "https://bieh08.github.io/MyEcommerce/",
 	},
 	{
 		id: 3,
@@ -103,7 +103,15 @@ export const moreProjects = [
 		des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
 		img: "/p3.svg",
 		iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-		link: "https://github.com/adrianhajdin/ai_saas_app",
+		link: "https://bieh08.github.io/ResponsiveDesignAndMobileFirst/",
+	},
+	{
+		id: 4,
+		title: "AI Image SaaS - Canva Application",
+		des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+		img: "/p3.svg",
+		iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+		link: "https://bieh08.github.io/GoogleCopy/",
 	},
 ];
 
@@ -184,8 +192,8 @@ export const workExperience = [
 	{
 		id: 2,
 		title: "Mobile App Dev",
-		desc: "I created small mobile app projects using React Native.",
-		className: "md:col-span-2", // change to md:col-span-2
+		desc: "I created small mobile apps using React Native.",
+		className: "md:col-span-2",
 		thumbnail: "/exp2.svg",
 	},
 	// {
