@@ -72,10 +72,10 @@ export const gridItems = [
 export const projects = [
 	{
 		id: 1,
-		title: "Animated Apple Iphone 3D Webpage",
+		title: "Apple Iphone 3D Animated Website Clone",
 		des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
 		img: "./p4.svg",
-		iconLists: ["/tail.svg", "/re.svg", "/three.svg", "/gsap.svg"],
+		iconLists: ["./tail.svg", "./re.svg", "./three.svg", "./gsap.svg"],
 		link: "https://bieh08.github.io/iPhone15ProClone/",
 	},
 	{
@@ -83,12 +83,12 @@ export const projects = [
 		title: "ToDo App for Tracking Your Tasks",
 		des: "Keep your tasks on track and complete with the ToDo app, built with React.js.",
 		img: "./p5.svg",
-		iconLists: ["/re.svg"],
+		iconLists: ["./re.svg"],
 		link: "https://bieh08.github.io/ToDoApp/",
 	},
 	{
 		id: 3,
-		title: "Google Search webpage Clone",
+		title: "Google Search Webpage Clone",
 		des: "A google webpage created with HTML5 and CSS3",
 		img: "./p6.svg",
 		iconLists: [""],
