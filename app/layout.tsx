@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Bryan's Portfolio",
   description: "Modern & Minimalist BIEH08 Portfolio",
+  name="google-site-verification" content="fTiRyfx2kTCkhAP6zpB9fd3kLnzz4b6bk6W9-YTWGds"
 };
 
 export default function RootLayout({
