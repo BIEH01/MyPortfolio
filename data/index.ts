@@ -222,7 +222,7 @@ export const socialMedia = [
 		id: 1,
 		name: "GitHub",
 		img: "./git.svg",
-		link: "https://github.com/BIEH08",
+		link: "https://github.com/BIEH01",
 	},
 	{
 		id: 2,
