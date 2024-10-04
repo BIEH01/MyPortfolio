@@ -76,7 +76,7 @@ export const projects = [
 		des: "Recreated the Phone website, combining GSAP animations and Three.js 3D effects..",
 		img: "./p4.svg",
 		iconLists: ["./tail.svg", "./re.svg", "./three.svg", "./gsap.svg"],
-		link: "https://",
+		link: "https://bieh01.github.io/PhoneClone/",
 	},
 	{
 		id: 2,
@@ -84,7 +84,7 @@ export const projects = [
 		des: "Keep your tasks on track and complete with the ToDo app, built with React.js.",
 		img: "./p5.svg",
 		iconLists: ["./re.svg"],
-		link: "https://",
+		link: "https://bieh01.github.io/ToDoApp/",
 	},
 	{
 		id: 3,
@@ -92,7 +92,7 @@ export const projects = [
 		des: "It is a webpage with amazing places to explore the world, interactive experience with a dark mode UI",
 		img: "./p11.svg",
 		iconLists: ["./tail.svg"],
-		link: "https://",
+		link: "https://bieh01.github.io/PlatziTravel/",
 	},
 	{
 		id: 4,
@@ -100,7 +100,7 @@ export const projects = [
 		des: "A little game design to enjoy while surfing the internet, built with CSS animations",
 		img: "./p7.svg",
 		iconLists: [""],
-		link: "https://",
+		link: "https://bieh01.github.io/Animationland/",
 	},
 	{
 		id: 5,
@@ -108,7 +108,7 @@ export const projects = [
 		des: "A little project with responsive design and mobile first",
 		img: "./p9.svg",
 		iconLists: [""],
-		link: "https://",
+		link: "https://bieh01.github.io/ResponsiveDesignAndMobileFirst/",
 	},
 	{
 		id: 6,
@@ -116,7 +116,7 @@ export const projects = [
 		des: "The webpage is a example of CSS layout",
 		img: "./p10.svg",
 		iconLists: [""],
-		link: "https://",
+		link: "https://bieh01.github.io/cssLayoutCourse/",
 	},
 	{
 		id: 7,
@@ -124,7 +124,7 @@ export const projects = [
 		des: "The webpage was created for showing the knowledge in CSS grid",
 		img: "./p8.svg",
 		iconLists: [""],
-		link: "https://",
+		link: "https://bieh01.github.io/BasicCssGrid/",
 	},
 	// {
 	// 	id: ,
