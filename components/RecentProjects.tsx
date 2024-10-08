@@ -23,7 +23,7 @@ const RecentProjects = () => {
 										<img src="./bg.png" alt="bgimg" />
 									</a>
 								</div>
-								<a href={link} className="lg:h-[98%] z-10 absolute bottom-0">
+								<a href={link} className="lg:h-[80%] z-10 absolute bottom-0">
 									<img src={img} alt={title} />
 								</a>
 							</div>
