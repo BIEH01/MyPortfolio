@@ -2,6 +2,7 @@ import { projects } from "@/data";
 import React from "react";
 import { PinContainer } from "./ui/3d-pin";
 import { FaLocationArrow } from "react-icons/fa";
+import Image from "next/image";
 
 const RecentProjects = () => {
 	return (
@@ -24,7 +25,13 @@ const RecentProjects = () => {
 									</a>
 								</div>
 								<a href={link} className="lg:h-[80%] z-10 absolute bottom-0">
-									<img src={img} alt={title} />
+									<Image
+										src={img}
+										alt={title}
+										width={600}
+										height={600}
+										className="object-contain"
+									/>
 								</a>
 							</div>
 							<a href={link}>
