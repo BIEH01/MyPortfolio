@@ -81,7 +81,7 @@ export const projects = [
 	{
 		id: 2,
 		title: "Igualitika is for legal advice",
-		des: "A little page to showcase legal matters, built with Next.js.",
+		des: "A little page to showcase legal information, built with Next.js.",
 		img: "./p12.svg",
 		iconLists: ["./re.svg", "./tail.svg", "./ts.svg"],
 		link: "https://bieh01.github.io/aracari-studio-technical-test/",
