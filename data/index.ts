@@ -88,6 +88,14 @@ export const projects = [
 	},
 	{
 		id: 3,
+		title: "Desserts for special occasions",
+		des: "The webpage was created with React and Sass",
+		img: "./p8.svg",
+		iconLists: ["/re.svg"],
+		link: "https://bieh01.github.io/jdk-technical-test/",
+	},
+	{
+		id: 4,
 		title: "Looking for a trip, try Platzi Travel",
 		des: "It is a webpage with amazing places to explore the world, interactive experience with a dark mode UI",
 		img: "./p11.svg",
@@ -95,7 +103,7 @@ export const projects = [
 		link: "https://bieh01.github.io/PlatziTravel/",
 	},
 	{
-		id: 4,
+		id: 5,
 		title: "ToDo App for Tracking Your Tasks",
 		des: "Keep your tasks on track and complete with the ToDo app, built with React.js.",
 		img: "./p5.svg",
@@ -103,7 +111,7 @@ export const projects = [
 		link: "https://bieh01.github.io/ToDoApp/",
 	},
 	{
-		id: 5,
+		id: 6,
 		title: "Have fun with Animationland",
 		des: "A little game design to enjoy while surfing the internet, built with CSS animations",
 		img: "./p7.svg",
@@ -111,29 +119,13 @@ export const projects = [
 		link: "https://bieh01.github.io/Animationland/",
 	},
 	{
-		id: 6,
+		id: 7,
 		title: "BatataBit for cryptocurrency exchange",
 		des: "A little project with responsive design and mobile first",
 		img: "./p9.svg",
 		iconLists: [],
 		link: "https://bieh01.github.io/ResponsiveDesignAndMobileFirst/",
 	},
-	// {
-	// 	id: 6,
-	// 	title: "Mi Blog with news of technology",
-	// 	des: "The webpage is a example of CSS layout",
-	// 	img: "./p10.svg",
-	// 	iconLists: [""],
-	// 	link: "https://bieh01.github.io/cssLayoutCourse/",
-	// },
-	// {
-	// 	id: 7,
-	// 	title: "Check the best food",
-	// 	des: "The webpage was created for showing the knowledge in CSS grid",
-	// 	img: "./p8.svg",
-	// 	iconLists: [""],
-	// 	link: "https://bieh01.github.io/BasicCssGrid/",
-	// },
 	// {
 	// 	id: ,
 	// 	title: "Yoom - Video Conferencing App",

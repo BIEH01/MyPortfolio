@@ -177,13 +177,15 @@ export const BentoGridItem = ({
 									}}
 								/>
 							</div>
-							<MagicButton
-								title={copied ? "Profile link copied" : "Profile link"}
-								icon={<IoCopyOutline />}
-								position="left"
-								otherClasses="!bg-[#161a31]"
-								handleClick={handleCopy}
-							/>
+							<a download href="./resume.pdf">
+								<MagicButton
+									title={copied ? "Resume downloaded" : "Download resume"}
+									icon={<IoCopyOutline />}
+									position="left"
+									otherClasses="!bg-[#161a31]"
+									handleClick={handleCopy}
+								/>
+							</a>
 						</div>
 					)}
 				</div>

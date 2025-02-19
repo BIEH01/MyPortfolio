@@ -20,11 +20,16 @@ const RecentProjects = () => {
 						<PinContainer title={"Visit"} href={link}>
 							<div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
 								<div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
-									<a href={link}>
+									<a href={link} target="_blank" rel="noReferrer">
 										<img src="./bg.png" alt="bgimg" />
 									</a>
 								</div>
-								<a href={link} className="lg:h-[80%] z-10 absolute bottom-0">
+								<a
+									href={link}
+									target="_blank"
+									rel="noReferrer"
+									className="lg:h-[80%] z-10 absolute bottom-0"
+								>
 									<Image
 										src={img}
 										alt={title}
@@ -34,7 +39,7 @@ const RecentProjects = () => {
 									/>
 								</a>
 							</div>
-							<a href={link}>
+							<a href={link} target="_blank" rel="noReferrer">
 								<h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
 									{title}
 								</h1>
@@ -51,14 +56,19 @@ const RecentProjects = () => {
 											className="border border-white/[0.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
 											style={{ transform: `translateX(-${5 * index * 2}px)` }}
 										>
-											<a href={link}>
+											<a href={link} target="_blank" rel="noReferrer">
 												<img src={icon} alt={icon} className="p-2" />
 											</a>
 										</div>
 									))}
 								</div>
 								<div>
-									<a href={link} className="flex justify-center items-center">
+									<a
+										href={link}
+										target="_blank"
+										rel="noReferrer"
+										className="flex justify-center items-center"
+									>
 										<p className="flex lg:text-xl md:text-xs text-sm text-purple">
 											Check Live Site
 										</p>
