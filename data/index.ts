@@ -70,16 +70,16 @@ export const gridItems = [
 ];
 
 export const projects = [
+	// {
+	// 	id: 1,
+	// 	title: "Phone 3D Animated Website Clone",
+	// 	des: "Recreated the Phone website, combining GSAP animations and Three.js 3D effects..",
+	// 	img: "./p4.svg",
+	// 	iconLists: ["./tail.svg", "./re.svg", "./three.svg", "./gsap.svg"],
+	// 	link: "https://bieh01.github.io/PhoneClone/",
+	// },
 	{
 		id: 1,
-		title: "Phone 3D Animated Website Clone",
-		des: "Recreated the Phone website, combining GSAP animations and Three.js 3D effects..",
-		img: "./p4.svg",
-		iconLists: ["./tail.svg", "./re.svg", "./three.svg", "./gsap.svg"],
-		link: "https://bieh01.github.io/PhoneClone/",
-	},
-	{
-		id: 2,
 		title: "Igualitika is for legal advice",
 		des: "A little page to showcase legal information, built with Next.js.",
 		img: "./p12.svg",
@@ -87,7 +87,7 @@ export const projects = [
 		link: "https://bieh01.github.io/aracari-studio-technical-test/",
 	},
 	{
-		id: 3,
+		id: 2,
 		title: "Desserts for special occasions",
 		des: "The webpage was created with React and Sass",
 		img: "./p8.svg",
@@ -95,7 +95,7 @@ export const projects = [
 		link: "https://bieh01.github.io/jdk-technical-test/",
 	},
 	{
-		id: 4,
+		id: 3,
 		title: "Looking for a trip, try Platzi Travel",
 		des: "It is a webpage with amazing places to explore the world, interactive experience with a dark mode UI",
 		img: "./p11.svg",
@@ -103,7 +103,7 @@ export const projects = [
 		link: "https://bieh01.github.io/PlatziTravel/",
 	},
 	{
-		id: 5,
+		id: 4,
 		title: "ToDo App for Tracking Your Tasks",
 		des: "Keep your tasks on track and complete with the ToDo app, built with React.js.",
 		img: "./p5.svg",
@@ -111,7 +111,7 @@ export const projects = [
 		link: "https://bieh01.github.io/ToDoApp/",
 	},
 	{
-		id: 6,
+		id: 5,
 		title: "Have fun with Animationland",
 		des: "A little game design to enjoy while surfing the internet, built with CSS animations",
 		img: "./p7.svg",
@@ -119,7 +119,7 @@ export const projects = [
 		link: "https://bieh01.github.io/Animationland/",
 	},
 	{
-		id: 7,
+		id: 6,
 		title: "BatataBit for cryptocurrency exchange",
 		des: "A little project with responsive design and mobile first",
 		img: "./p9.svg",
