@@ -70,14 +70,14 @@ export const gridItems = [
 ];
 
 export const projects = [
-	// {
-	// 	id: 1,
-	// 	title: "Phone 3D Animated Website Clone",
-	// 	des: "Recreated the Phone website, combining GSAP animations and Three.js 3D effects..",
-	// 	img: "./p4.svg",
-	// 	iconLists: ["./tail.svg", "./re.svg", "./three.svg", "./gsap.svg"],
-	// 	link: "https://bieh01.github.io/PhoneClone/",
-	// },
+	 {
+	 	id: 1,
+	 	title: "Phone 3D Animated Website Clone",
+	 	des: "Recreated the Phone website, combining GSAP animations and Three.js 3D effects..",
+	 	img: "./p4.svg",
+	 	iconLists: ["./tail.svg", "./re.svg", "./three.svg", "./gsap.svg"],
+	 	link: "https://bieh01.github.io/PhoneClone/",
+	 },
 	{
 		id: 1,
 		title: "Igualitika is for legal advice",
